@@ -1,0 +1,69 @@
+@font-face{
+    font-family: head;
+    src: url(./Heading-Now-Variable.ttf);
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+   
+}
+
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+
+#page1 h1{
+    font-size: 35vw;
+    color: white;
+    font-family: head;
+    white-space: nowrap;   /* keeps font in one line only */
+    font-stretch: 290%;
+   
+}
+
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+
+
+
+#loader{
+    height: 100vh;
+    width: 100%;
+    background-color: crimson;
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#loader >h1{
+    font-size: 100px;
+    font-family: monument;
+    font-weight: 100;
+}
